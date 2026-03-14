@@ -2,28 +2,69 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>文档下载</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中西部无机化学2026论文摘要投稿模板</title>
     <style>
-        body { text-align: center; margin-top: 100px; font-family: Arial, sans-serif; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", Arial, sans-serif;
+        }
+        body {
+            background-color: #f0f2f5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .title {
+            color: #1f2937;
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 40px;
+            line-height: 1.5;
+            max-width: 90%;
+        }
         .download-btn {
-            padding: 12px 30px;
-            margin: 10px;
-            background: #0070f3;
+            width: 280px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            background-color: #2563eb;
             color: white;
             text-decoration: none;
             border-radius: 8px;
             font-size: 18px;
-            display: inline-block;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(37, 99, 235, 0.25);
+            transition: all 0.2s ease;
         }
-        .download-btn:hover { background: #0051bb; }
+        .download-btn:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-2px);
+        }
+        .tip {
+            color: #6b7280;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>点击下载相关文档</h1>
+    <h1 class="title">中西部无机化学2026论文摘要投稿模板</h1>
     
-    <!-- 只保留一个按钮，名称已改为你指定的字样 -->
-    <a href="中国化学会2026年中西部无机化学化工学术研讨会（第一轮通知）.pdf" download="中西部无机化学2026论文摘要投稿模板.docx" class="download-btn">
-        中西部无机化学2026论文摘要投稿模板
+    <a 
+        href="中西部无机化学2026论文摘要投稿模板.zip" 
+        download="中西部无机化学2026论文摘要投稿模板.zip" 
+        class="download-btn"
+    >
+        点击下载压缩包
     </a>
+    
+    <p class="tip">下载后请解压，使用 WPS/Word 打开 docx 文件</p>
 </body>
 </html>
